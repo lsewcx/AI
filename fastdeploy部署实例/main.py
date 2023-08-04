@@ -1,7 +1,6 @@
 import cv2
 import fastdeploy.vision as vision
 import fastdeploy
-import struct
 
 
 
