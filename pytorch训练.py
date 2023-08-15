@@ -10,6 +10,7 @@ import time
 # 定义训练的设备
 device = torch.device("cuda")
 
+
 # 准备数据集
 train_data = torchvision.datasets.CIFAR10(root="dataset", train=True, transform=torchvision.transforms.ToTensor(),
                                           download=True)
